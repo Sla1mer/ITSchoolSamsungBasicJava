@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class SummaClass {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in); // Создание объекта класса Scanner
+        Scanner in = new Scanner(System.in); // Создание объекта
         System.out.println("Введите а: "); // Подсказка
         int a = in.nextInt(); // Поле для ввода числа пользователю
         System.out.println("Введите b: "); // Подсказка
