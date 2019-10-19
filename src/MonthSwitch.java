@@ -4,7 +4,7 @@ public class MonthSwitch {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int a = in.nextInt();
-        switch (a){
+        switch (a) {
             case (1):
                 System.out.println("Зима");
                 break;
@@ -44,4 +44,5 @@ public class MonthSwitch {
             default:
                 System.out.println("Это не является месяцем какого-либо времени года");
         }
+    }
 }
